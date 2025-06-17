@@ -109,6 +109,7 @@ class MaintenanceOperationController extends Controller
         // Retourner les opérations planifiées basées sur l'historique et les intervalles
         $vehicles = \App\Models\Vehicle::active()->get();
         $plannedOperations = [];
+        
 
         foreach ($vehicles as $vehicle) {
             $lastMaintenance = $vehicle->maintenanceOperations()

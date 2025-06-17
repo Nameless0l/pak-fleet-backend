@@ -34,9 +34,9 @@ Route::middleware(['auth:sanctum'])->group(function () {
     });
 
     // Opérations de maintenance
-    Route::apiResource('maintenance-operations', MaintenanceOperationController::class);
-    Route::get('/maintenance-operations/planned', [MaintenanceOperationController::class, 'plannedOperations']);
+    Route::get('maintenance-operations/planned', [MaintenanceOperationController::class, 'plannedOperations']);
 
+    Route::apiResource('maintenance-operations', MaintenanceOperationController::class);
     // Pièces détachées
     Route::apiResource('spare-parts', SparePartController::class);
     Route::post('/spare-parts/{sparePart}/update-stock', [SparePartController::class, 'updateStock']);
