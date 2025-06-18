@@ -1,0 +1,213 @@
+Id_Techniscien,Libelle_maintenance,numéro_chassis,Date_maintenance,Id_maintenance,Nature de l'opération
+1,Remplacement Amortisseurs; Rotule de directions,CH249,Fri Feb 02 00:00:00 CET 2024,000A00,Corrective
+1,vidange moteur,CH249,Wed Feb 21 00:00:00 CET 2024,000A01,Préventive
+1,Liquide de refroidissement et lave glace,CH249,Mon Mar 25 00:00:00 CET 2024,000A02,Préventive
+1,Vidange moteur,CH249,Wed May 08 00:00:00 CEST 2024,000A03,Préventive
+2,Vidange moteur,CH249,Wed Jul 03 00:00:00 CEST 2024,000A04,Préventive
+4,Vidange moteur,CH249,Thu Sep 12 00:00:00 CEST 2024,000A05,Préventive
+1,Vidange moteur,CH001,Tue Jan 16 00:00:00 CET 2024,000A06,Préventive
+1,Vidange+Lave glace,CH004,Fri Mar 03 00:00:00 CET 2023,000A07,Préventive
+1,Vidange boite de vitesse+Vidange moteur,CH004,Thu Mar 14 00:00:00 CET 2024,000A08,Préventive
+1,Diagnostique,CH004,Fri May 24 00:00:00 CEST 2024,000A09,Préventive
+2,Remplacement des bras de suspension usés,CH004,Thu Jun 01 00:00:00 CEST 2023,000A10,Corrective
+3,Remplacement des bielettes de stabilisation,CH004,Wed Jun 07 00:00:00 CEST 2023,000A11,Corrective
+4,Vidange moteur,CH004,Wed Jul 05 00:00:00 CEST 2023,000A12,Préventive
+3,Vidange moteur,CH004,Mon Jul 31 00:00:00 CEST 2023,000A13,Préventive
+5,Vidange moteur,CH004,Fri Sep 15 00:00:00 CEST 2023,000A14,Préventive
+3,Vidange moteur,CH004,Thu Feb 22 00:00:00 CET 2024,000A15,Préventive
+6,Vidange moteur,CH004,Tue Apr 16 00:00:00 CEST 2024,000A16,Préventive
+3,Vidange moteur,CH004,Wed Jul 03 00:00:00 CEST 2024,000A17,Préventive
+2,Vidange moteur,CH003,Wed Mar 13 00:00:00 CET 2024,000A18,Préventive
+3,Vidange + changement biellettes +rotules,CH987,Wed Apr 17 00:00:00 CEST 2024,000A19,Préventive
+4,Vidange,CH987,Fri Aug 30 00:00:00 CEST 2024,000A20,Préventive
+1,Remplacement 04 pneus+ biellettes de barre stabilisatrice,CH002,Thu Jan 11 00:00:00 CET 2024,000A21,Corrective
+6,Remplacement Plaquettes,CH998,Tue Jan 02 00:00:00 CET 2024,000A22,Corrective
+6,Démontage et remplacement des biellettes,CH998,Fri Jan 12 00:00:00 CET 2024,000A23,Préventive
+6,Vidange,CH998,Fri Feb 23 00:00:00 CET 2024,000A24,Préventive
+1,Remplacement des plaquettes,CH001,Tue Jan 09 00:00:00 CET 2024,000A25,Préventive
+2,Remplacement,CH249,Wed Jun 19 00:00:00 CEST 2024,000A26,Préventive
+4,Vidange,CH999,Fri Jan 05 00:00:00 CET 2024,000A27,Préventive
+2,Remplacement courroie,CH683,Wed Feb 07 00:00:00 CET 2024,000B00,Corrective
+3,Vidange moteur,CH683,Tue Jan 16 00:00:00 CET 2024,000B01,Préventive
+3,Vidange moteur,CH683,Wed Jan 03 00:00:00 CET 2024,000B02,Préventive
+4,Vidange moteur,CH683,Tue Apr 09 00:00:00 CEST 2024,000B03,Préventive
+5,Vidange moteur,CH683,Wed May 15 00:00:00 CEST 2024,000B04,Préventive
+5,Remplacement moyau+plaquette de frein+Rotule de direction,CH683,Tue Jul 02 00:00:00 CEST 2024,000B05,Préventive
+4,Remplacement biellette de direction,CH683,Wed Jul 03 00:00:00 CEST 2024,000B06,Préventive
+6,S.C.A.M,CH683,Mon Jul 22 00:00:00 CEST 2024,000B07,Préventive
+4,Vidange moteur,CH683,Tue Aug 06 00:00:00 CEST 2024,000B08,Préventive
+4,Vidange moteur,CH683,Fri Sep 06 00:00:00 CEST 2024,000B09,Préventive
+5,Vidange moteur,CH683,Thu Oct 03 00:00:00 CEST 2024,000B10,Préventive
+5,Vidange moteur,CH683,Wed Nov 06 00:00:00 CET 2024,000B11,Préventive
+1,Moyau avant et droit,CH126,Thu Jan 18 00:00:00 CET 2024,000B12,Préventive
+2,Vidange moteur,CH126,Wed Feb 21 00:00:00 CET 2024,000B13,Préventive
+3,Diagnostique,CH126,Thu Apr 11 00:00:00 CEST 2024,000B14,Préventive
+5,Remplacement 4 capteur,CH126,Wed Apr 24 00:00:00 CEST 2024,000B15,Corrective
+4,Vidange moteur,CH126,Tue Apr 30 00:00:00 CEST 2024,000B16,Préventive
+3,Changement de cardant de croisson,CH126,Mon May 06 00:00:00 CEST 2024,000B17,Corrective
+4,Remplacement d'un flexible+huile de direction,CH126,Tue Apr 02 00:00:00 CEST 2024,000B18,Corrective
+6,Vidange complète,CH126,Wed Mar 27 00:00:00 CET 2024,000B19,Préventive
+4,Changement tendeur+ courroie alternateur,CH126,Mon Mar 25 00:00:00 CET 2024,000B20,Corrective
+2,Remplacement moyaux droit +Ajout huile de frein,CH126,Mon May 13 00:00:00 CEST 2024,000B21,Corrective
+5,Remplacement des feu de recul Droit,CH126,Wed May 15 00:00:00 CEST 2024,000B22,Corrective
+3,Vidange moteur,CH126,Thu Jun 20 00:00:00 CEST 2024,000B23,Préventive
+6,Vidange moteur,CH126,Thu Sep 12 00:00:00 CEST 2024,000B24,Préventive
+4,Vidange moteur,CH126,Wed Oct 09 00:00:00 CEST 2024,000B25,Préventive
+2,Vidange moteur,CH126,Mon Dec 16 00:00:00 CET 2024,000B26,Préventive
+4,Vidange moteur,CH219,Wed Jan 10 00:00:00 CET 2024,000B27,Préventive
+3,Remplacement kit courroies,CH219,Tue Jan 30 00:00:00 CET 2024,000B28,Corrective
+7,Vidange moteur,CH219,Thu Feb 29 00:00:00 CET 2024,000B29,Préventive
+7,Ampoule défectueux,CH219,Wed Mar 20 00:00:00 CET 2024,000B30,Corrective
+7,Remplacement garniture de frein plus système de freinage,CH219,Wed Apr 03 00:00:00 CEST 2024,000B31,Corrective
+7,Ajout huile moteur +liquide refroidissement,CH219,Wed Apr 24 00:00:00 CEST 2024,000B32,Préventive
+7,Vidange moteur,CH219,Fri Apr 26 00:00:00 CEST 2024,000B33,Préventive
+7,Vidange moteur,CH219,Fri Jun 07 00:00:00 CEST 2024,000B34,Préventive
+7,Remplacement Disque+Plateau+butée+liquide de refroidissement(4l),CH219,Tue Jun 11 00:00:00 CEST 2024,000B35,Corrective
+3,Remplacement garniture de frein,CH219,Tue Jul 16 00:00:00 CEST 2024,000B36,Corrective
+3,Vidange moteur+Remplacement rotule + huile de frein,CH219,Wed Jul 17 00:00:00 CEST 2024,000B37,Corrective
+4,Vidange moteur,CH219,Tue Aug 20 00:00:00 CEST 2024,000B38,Préventive
+4,Changement alternateur,CH219,Wed Sep 18 00:00:00 CEST 2024,000B39,Corrective
+2,Vidange moteur,CH219,Wed Oct 09 00:00:00 CEST 2024,000B40,Préventive
+2,Vidange moteur,CH219,Wed Dec 11 00:00:00 CET 2024,000B41,Préventive
+4,Vidange moteur,CH219,Mon Dec 16 00:00:00 CET 2024,000B42,Préventive
+2,Vidange moteur,CH196,Fri Feb 09 00:00:00 CET 2024,000B43,Préventive
+3,Vidange moteur,CH196,Wed Feb 21 00:00:00 CET 2024,000B44,Préventive
+3,Vidange moteur,CH196,Mon Mar 11 00:00:00 CET 2024,000B45,Préventive
+2,Vidange moteur,CH196,Thu Apr 04 00:00:00 CEST 2024,000B46,Préventive
+3,Vidange moteur,CH196,Mon Apr 22 00:00:00 CEST 2024,000B47,Préventive
+4,Vidange moteur,CH196,Wed May 15 00:00:00 CEST 2024,000B48,Préventive
+5,Vidange moteur,CH196,Tue Jun 04 00:00:00 CEST 2024,000B49,Préventive
+2,Element de filtration,CH196,Wed Jun 12 00:00:00 CEST 2024,000B50,Préventive
+3,Vidange moteur,CH196,Wed Jun 26 00:00:00 CEST 2024,000B51,Préventive
+4,Vidange moteur,CH196,Mon Jul 15 00:00:00 CEST 2024,000B52,Préventive
+3,Vidange moteur,CH196,Wed Sep 11 00:00:00 CEST 2024,000B53,Préventive
+4,Vidange moteur,CH196,Mon Sep 30 00:00:00 CEST 2024,000B54,Préventive
+3,Vidange moteur,CH196,Tue Oct 22 00:00:00 CEST 2024,000B55,Préventive
+4,Vidange moteur,CH196,Thu Dec 19 00:00:00 CET 2024,000B56,Préventive
+3,Mise à niveau liquide de refroidissement,CH196,Thu Jan 02 00:00:00 CET 2025,000B57,Préventive
+3,Vidange moteur,CH196,Wed Jan 08 00:00:00 CET 2025,000B58,Préventive
+3,Vidange moteur,CH196,Wed Jan 29 00:00:00 CET 2025,000B59,Préventive
+4,Remplacement kit complet embrayage,CH196,Tue Feb 04 00:00:00 CET 2025,000B60,corrective
+2,Vidange moteur,CH865,Thu Jun 27 00:00:00 CEST 2024,000B61,Préventive
+3,Remplacement filtre à carburant,CH574,Thu Jan 04 00:00:00 CET 2024,000B62,Préventive
+2,Ajout huile de boite,CH574,Fri Feb 02 00:00:00 CET 2024,000B63,Préventive
+2,Démontage de la boite de vitesse,CH574,Wed Feb 21 00:00:00 CET 2024,000B64,Corrective
+2,Remontage de la boite de vitesse,CH574,Tue Apr 23 00:00:00 CEST 2024,000B65,Corrective
+3,Vidange moteur,CH574,Mon May 06 00:00:00 CEST 2024,000B66,Préventive
+4,Vidange moteur,CH574,Mon Jun 24 00:00:00 CEST 2024,000B67,Préventive
+4,Suspension et Direction +Vidange,CH574,Mon Jul 08 00:00:00 CEST 2024,000B68,Corrective
+4,Problème de direction,CH574,Sat Dec 14 00:00:00 CET 2024,000B69,Corrective
+2,RAS,CH574,Wed Dec 18 00:00:00 CET 2024,000B70,Préventive
+3,Diagnostique,CH574,Mon Dec 30 00:00:00 CET 2024,000B71,Préventive
+2,Vidange moteur,CH471,Sat Apr 06 00:00:00 CEST 2024,000B72,Préventive
+3,Vidange moteur,CH471,Fri Jun 21 00:00:00 CEST 2024,000B73,Préventive
+6,Vidange moteur,CH471,Tue Sep 10 00:00:00 CEST 2024,000B74,Préventive
+6,Vidange moteur,CH471,Mon Sep 30 00:00:00 CEST 2024,000B75,Préventive
+6,Vidange moteur,CH471,Thu Nov 28 00:00:00 CET 2024,000B76,Préventive
+3,Vidange moteur,CH467,Wed Aug 07 00:00:00 CEST 2024,000B77,Préventive
+4,Vidange moteur,CH467,Tue Sep 10 00:00:00 CEST 2024,000B78,Préventive
+6,Vidange moteur,CH467,Fri Oct 04 00:00:00 CEST 2024,000B79,Préventive
+5,Remplacement disque de frein,CH467,Tue Dec 03 00:00:00 CET 2024,000B80,Corrective
+2,Vidange moteur,CH467,Mon Dec 30 00:00:00 CET 2024,000B81,Préventive
+2,Fuite d'huile tambour arrière roue droit; Disque de frein usés,CH198,Thu Jan 04 00:00:00 CET 2024,000B82,Corrective
+4,Vidange moteur,CH198,Fri Mar 01 00:00:00 CET 2024,000B83,Préventive
+3,Vidange moteur,CH198,Tue Dec 17 00:00:00 CET 2024,000B84,Préventive
+4,Vidange moteur+kit d'embrayge,CH865,Tue Dec 03 00:00:00 CET 2024,000B85,Préventive+Corrective
+3,Problème d'embreyage,CH924,Wed Jan 03 00:00:00 CET 2024,000B86,Corrective
+4,Révision générale,CH922,Fri Feb 23 00:00:00 CET 2024,000B87,Corrective
+2,Vidange moteur,CH928,Tue Jan 16 00:00:00 CET 2024,000B88,Préventive
+1,Révision freinage,CH928,Fri Feb 23 00:00:00 CET 2024,000B89,Corrective
+2,Changement Battérie,CH927,Sat Oct 19 00:00:00 CEST 2024,000B90,Corrective
+3,Permutation des pneus,CH927,Mon Dec 30 00:00:00 CET 2024,000B91,Préventive
+4,Vidange moteur,CH996,Tue Apr 30 00:00:00 CEST 2024,000B92,Préventive
+2,Problème de frein,CH210,Tue Nov 26 00:00:00 CET 2024,000B93,Corrective
+2,Vidange moteur,CH469,Fri Oct 11 00:00:00 CEST 2024,000B94,Préventive
+2,Fuite d'huile,CH919,Thu Jan 11 00:00:00 CET 2024,000B95,Corrective
+3,Changement moyaux+purge de frein,CH919,Thu Feb 01 00:00:00 CET 2024,000B96,Corrective
+4,Vidange moteur,CH195,Mon Apr 15 00:00:00 CEST 2024,000B97,Préventive
+4,Vidange moteur,CH195,Mon Jun 24 00:00:00 CEST 2024,000B98,Préventive
+3,Vidange moteur,CH195,Thu Nov 07 00:00:00 CET 2024,000B99,Préventive
+3,Vidange moteur,CH245,Wed Apr 24 00:00:00 CEST 2024,00B100,Préventive
+6,Vidange moteur,CH473,Mon Aug 19 00:00:00 CEST 2024,00B101,Préventive
+3,Remplacement freinage,CH473,Wed Aug 28 00:00:00 CEST 2024,00B102,Corrective
+2,Vidange moteur,CH473,Tue Oct 22 00:00:00 CEST 2024,00B103,Préventive
+4,Garniture et disque de frein,CH473,Tue Dec 03 00:00:00 CET 2024,00B104,Corrective
+3,Règlage disque de frein,CH473,Tue Dec 17 00:00:00 CET 2024,00B105,Corrective
+3,Vidange moteur,CH125,Fri Jan 26 00:00:00 CET 2024,00B106,Préventive
+4,Remplacement plaquette,CH125,Wed Mar 20 00:00:00 CET 2024,00B107,Corrective
+2,Vidange moteur,CH125,Thu Mar 14 00:00:00 CET 2024,00B108,Préventive
+3,Vidange moteur,CH125,Mon May 06 00:00:00 CEST 2024,00B109,Préventive
+3,Remplacement batterie,CH125,Wed Jun 19 00:00:00 CEST 2024,00B110,Corrective
+3,Remplacement disque butée,CH125,Fri Jun 21 00:00:00 CEST 2024,00B111,Corrective
+4,Vidange moteur,CH125,Tue Jul 02 00:00:00 CEST 2024,00B112,Préventive
+3,Vidange moteur,CH125,Thu Sep 05 00:00:00 CEST 2024,00B113,Préventive
+3,Vidange moteur,CH197,Mon Mar 18 00:00:00 CET 2024,00B114,Préventive
+4,Vidange moteur,CH197,Mon May 13 00:00:00 CEST 2024,00B115,Préventive
+4,Vidange moteur,CH197,Sun Jul 28 00:00:00 CEST 2024,00B116,Préventive
+4,Vidange moteur,CH197,Wed Aug 07 00:00:00 CEST 2024,00B117,Préventive
+4,Vidange moteur,CH197,Mon Sep 02 00:00:00 CEST 2024,00B118,Préventive
+3,Vidange moteur,CH865,Wed Mar 13 00:00:00 CET 2024,00B119,Préventive
+3,Vidange moteur,CH865,Mon Jul 22 00:00:00 CEST 2024,00B120,Préventive
+3,Remplacement plaquette,CH865,Tue Jul 30 00:00:00 CEST 2024,00B121,Corrective
+3,Vidange moteur,CH865,Tue Aug 27 00:00:00 CEST 2024,00B122,Préventive
+2,Vidange moteur,CH865,Tue Oct 08 00:00:00 CEST 2024,00B123,Préventive
+2,Disque plateau endommagé,CH220,Fri Apr 26 00:00:00 CEST 2024,00B124,Corrective
+2,Courroie défectueuse,CH220,Tue Jun 04 00:00:00 CEST 2024,00B125,Corrective
+2,Vidange moteur,CH220,Wed Aug 28 00:00:00 CEST 2024,00B126,Préventive
+3,Vidange moteur,CH220,Thu Sep 12 00:00:00 CEST 2024,00B127,Préventive
+4,Remplacement de 2 roulement+4 rotules+2 biellettes de direction+2 rotules de direction,CH220,Wed Oct 02 00:00:00 CEST 2024,00B128,Corrective
+3,Battérie usée,CH220,Tue Oct 08 00:00:00 CEST 2024,00B129,Corrective
+4,Vidange moteur,CH220,Wed Nov 06 00:00:00 CET 2024,00B130,Préventive
+6,Vidange moteur,CH220,Mon Dec 23 00:00:00 CET 2024,00B131,Préventive
+3,Rajout d'huile de direction,CH220,Mon Dec 30 00:00:00 CET 2024,00B132,Corrective
+2,Vidange moteur,CH864,Fri Mar 08 00:00:00 CET 2024,00B133,Préventive
+2,Vidange moteur,CH864,Thu Aug 08 00:00:00 CEST 2024,00B134,Préventive
+3,Vidange moteur,CH864,Tue Sep 10 00:00:00 CEST 2024,00B135,Préventive
+3,Ajout liquide de direction et frein,CH864,Thu Dec 05 00:00:00 CET 2024,00B136,Corrective
+3,Vidange moteur,CH864,Sat Dec 14 00:00:00 CET 2024,00B137,Préventive
+4,Remplacement Goujon,CH864,Wed Dec 18 00:00:00 CET 2024,00B138,Corrective
+4,Vidange moteur,CH197,Mon Mar 18 00:00:00 CET 2024,00B139,Préventive
+4,Vidange moteur,CH197,Mon May 13 00:00:00 CEST 2024,00B140,Préventive
+3,Vidange moteur,CH197,Sun Jul 28 00:00:00 CEST 2024,00B141,Préventive
+3,Vidange moteur,CH197,Wed Aug 07 00:00:00 CEST 2024,00B142,Préventive
+4,Vidange moteur,CH197,Mon Sep 02 00:00:00 CEST 2024,00B143,Préventive
+4,Vidange moteur,CH865,Wed Mar 13 00:00:00 CET 2024,00B144,Préventive
+3,Vidange moteur,CH865,Mon Jul 22 00:00:00 CEST 2024,00B145,Préventive
+3,Remplacement des plaquettes de frein,CH865,Tue Jul 30 00:00:00 CEST 2024,00B146,Corrective
+6,Vidange moteur,CH865,Tue Aug 27 00:00:00 CEST 2024,00B147,Préventive
+3,Vidange moteur,CH865,Tue Oct 08 00:00:00 CEST 2024,00B148,Préventive
+2,Remplacement des bougies,CH685,Mon Feb 19 00:00:00 CET 2024,000C01,Corrective
+3,Vidange moteur,CH685,Wed Mar 27 00:00:00 CET 2024,000C02,Préventive
+6,liquide de refroidissement+lave glace,CH685,Mon Apr 22 00:00:00 CEST 2024,000C03,Préventive
+3,Remplacement huile de vitesse,CH685,Mon Apr 29 00:00:00 CEST 2024,000C04,Préventive
+4,Vidange moteur,CH685,Wed May 15 00:00:00 CEST 2024,000C05,Préventive
+4,Remplacement ecrou goujon,CH685,Tue Jul 02 00:00:00 CEST 2024,000C06,Préventive
+4,Vidange moteur,CH685,Wed Jul 17 00:00:00 CEST 2024,000C07,Préventive
+3,Vidange moteur,CH685,Mon Sep 16 00:00:00 CEST 2024,000C08,Préventive
+3,Vidange moteur,CH685,Mon Dec 02 00:00:00 CET 2024,000C09,Préventive
+4,vidange moteur,CH685,Thu Dec 19 00:00:00 CET 2024,000C10,Préventive
+3,Vidange moteur,CH673,Wed Feb 14 00:00:00 CET 2024,000C11,Préventive
+4,Vidange moteur,CH673,Tue Jan 16 00:00:00 CET 2024,000C12,Préventive
+3,Vidange moteur,CH673,Fri Jan 05 00:00:00 CET 2024,000C13,Préventive
+4,Vidange moteur,CH673,Thu Feb 22 00:00:00 CET 2024,000C14,Préventive
+2,Vidange moteur,CH673,Tue Mar 05 00:00:00 CET 2024,000C15,Préventive
+4,Parrallelisme,CH673,Tue Apr 02 00:00:00 CEST 2024,000C16,corrective
+3,Vidange moteur,CH673,Tue May 21 00:00:00 CEST 2024,000C17,Préventive
+4,Vidange moteur,CH673,Thu Jun 20 00:00:00 CEST 2024,000C18,Préventive
+3,Vidange moteur+ Remplacement plaquette,CH673,Mon Jul 15 00:00:00 CEST 2024,000C19,Préventive
+4,Vidange moteur,CH673,Tue Aug 27 00:00:00 CEST 2024,000C20,Préventive
+3,Vidange moteur,CH673,Mon Sep 23 00:00:00 CEST 2024,000C21,Préventive
+4,Remplacement des roues,CH673,Wed Sep 25 00:00:00 CEST 2024,000C22,corrective
+3,Vidange moteur,CH673,Thu Dec 12 00:00:00 CET 2024,000C23,Préventive
+4,Remplacement de plaquettes de frein,CH673,Wed Dec 18 00:00:00 CET 2024,000C24,corrective
+2,Vidange moteur,CH694,Tue Feb 13 00:00:00 CET 2024, 000C25,Préventive
+6,Remplacement roue,CH694,Thu Feb 29 00:00:00 CET 2024,000C26,corrective
+3,Liquide de refroidissement,CH243,Thu Jun 13 00:00:00 CEST 2024,000C27,Préventive
+4,Vidange moteur,CH686,Thu Feb 29 00:00:00 CET 2024,000C28,Préventive
+6,Remplacement des pneus,CH686,Thu Mar 21 00:00:00 CET 2024,000C29,Préventive
+4,Diagnostic,CH686,Thu May 02 00:00:00 CEST 2024,000C30,Préventive
+5,"Remplacement moyaux Ar,Roulement Ar, plaquettes Ar, Bougies d'allumage",CH697,Wed Jan 10 00:00:00 CET 2024,000C31,corrective
+3,Remplacement garniture de frein,CH697,Mon May 06 00:00:00 CEST 2024,000C32,corrective
+3,Vidange moteur+plaquette,CH697,Thu Jul 18 00:00:00 CEST 2024,000C33,Préventive+Corrective
+3,Vidange moteur,CH697,Tue Oct 08 00:00:00 CEST 2024,000C34,Préventive
+4,Amortisseur AV et AR ses bras de suspension AV,CH69
