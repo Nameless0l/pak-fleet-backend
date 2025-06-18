@@ -45,6 +45,7 @@ class DatabaseSeeder extends Seeder
         ]);
         $this->call([
             MaintenanceOperationSeeder::class,
+        
         ]);
 
         // Créer des véhicules

@@ -11,7 +11,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 class ValidationController extends Controller
 {
-    use AuthorizesRequests;
+    // use AuthorizesRequests;
     public function pendingOperations(Request $request)
     {
 
@@ -25,7 +25,7 @@ class ValidationController extends Controller
 
     public function validate(ValidateOperationRequest $request, MaintenanceOperation $operation)
     {
-
+        
         $operation->update([
             'status' => $request->status,
             'validated_by' => $request->user()->id,
@@ -34,7 +34,7 @@ class ValidationController extends Controller
         ]);
 
         // Notification au technicien
-        $operation->technician->notify(new OperationValidated($operation));
+        // $operation->technician->notify(new OperationValidated($operation));
 
         return response()->json([
             'message' => 'Opération ' . ($request->status === 'validated' ? 'validée' : 'rejetée') . ' avec succès',

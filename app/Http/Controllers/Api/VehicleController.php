@@ -7,6 +7,7 @@ use App\Http\Requests\StoreVehicleRequest;
 use App\Http\Resources\VehicleResource;
 use App\Models\Vehicle;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class VehicleController extends Controller
 {
@@ -32,7 +33,16 @@ class VehicleController extends Controller
 
     public function store(StoreVehicleRequest $request)
     {
-        $vehicle = Vehicle::create($request->validated());
+        $data = $request->validated();
+        
+        // Gérer l'upload de l'image
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $imagePath = $image->store('vehicles', 'public');
+            $data['image_path'] = $imagePath;
+        }
+
+        $vehicle = Vehicle::create($data);
 
         return new VehicleResource($vehicle->load('vehicleType'));
     }
@@ -46,15 +56,53 @@ class VehicleController extends Controller
 
     public function update(StoreVehicleRequest $request, Vehicle $vehicle)
     {
-        $vehicle->update($request->validated());
+        $data = $request->validated();
+        
+        // Gérer l'upload de l'image
+        if ($request->hasFile('image')) {
+            // Supprimer l'ancienne image si elle existe
+            if ($vehicle->image_path && Storage::disk('public')->exists($vehicle->image_path)) {
+                Storage::disk('public')->delete($vehicle->image_path);
+            }
+            
+            $image = $request->file('image');
+            $imagePath = $image->store('vehicles', 'public');
+            $data['image_path'] = $imagePath;
+        }
+
+        $vehicle->update($data);
 
         return new VehicleResource($vehicle->load('vehicleType'));
     }
 
     public function destroy(Vehicle $vehicle)
     {
+        // Supprimer l'image si elle existe
+        if ($vehicle->image_path && Storage::disk('public')->exists($vehicle->image_path)) {
+            Storage::disk('public')->delete($vehicle->image_path);
+        }
+        
         $vehicle->delete();
 
         return response()->json(['message' => 'Véhicule supprimé avec succès']);
+    }
+    
+    public function analytics()
+    {
+        $analytics = [
+            'total_vehicles' => Vehicle::count(),
+            'active_vehicles' => Vehicle::where('status', 'active')->count(),
+            'maintenance_vehicles' => Vehicle::where('status', 'maintenance')->count(),
+            'out_of_service_vehicles' => Vehicle::where('status', 'out_of_service')->count(),
+            'vehicles_by_type' => Vehicle::with('vehicleType')
+                ->get()
+                ->groupBy('vehicleType.name')
+                ->map->count(),
+            'recent_maintenances' => Vehicle::with(['maintenanceOperations' => function($query) {
+                $query->latest()->limit(5);
+            }, 'maintenanceOperations.maintenanceType'])->get()
+        ];
+
+        return response()->json($analytics);
     }
 }
