@@ -14,7 +14,6 @@ class ValidationController extends Controller
     use AuthorizesRequests;
     public function pendingOperations(Request $request)
     {
-        $this->authorize('validate-operations');
 
         $operations = MaintenanceOperation::pending()
             ->with(['vehicle', 'maintenanceType', 'technician'])
@@ -26,7 +25,6 @@ class ValidationController extends Controller
 
     public function validate(ValidateOperationRequest $request, MaintenanceOperation $operation)
     {
-        $this->authorize('validate-operations');
 
         $operation->update([
             'status' => $request->status,

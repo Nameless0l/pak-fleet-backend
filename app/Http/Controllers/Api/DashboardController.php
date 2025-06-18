@@ -47,16 +47,16 @@ class DashboardController extends Controller
         return MaintenanceOperation::validated()
             ->whereYear('operation_date', $year)
             ->select(
-                DB::raw('MONTH(operation_date) as month'),
+                DB::raw("strftime('%m', operation_date) as month"),
                 DB::raw('SUM(total_cost) as total_cost'),
                 DB::raw('COUNT(*) as operations_count')
             )
-            ->groupBy('month')
-            ->orderBy('month')
+            ->groupBy(DB::raw("strftime('%m', operation_date)"))
+            ->orderBy(DB::raw("strftime('%m', operation_date)"))
             ->get()
             ->map(function ($item) {
                 return [
-                    'month' => Carbon::create()->month($item->month)->format('F'),
+                    'month' => Carbon::create()->month((int)$item->month)->format('F'),
                     'total_cost' => $item->total_cost,
                     'operations_count' => $item->operations_count,
                 ];
@@ -79,19 +79,18 @@ class DashboardController extends Controller
 
     private function getCostsByVehicleType($year)
     {
-        return MaintenanceOperation::validated()
-            ->whereYear('operation_date', $year)
+        return MaintenanceOperation::whereYear('operation_date', $year)
+            ->where('maintenance_operations.status', 'validated')
             ->join('vehicles', 'maintenance_operations.vehicle_id', '=', 'vehicles.id')
             ->join('vehicle_types', 'vehicles.vehicle_type_id', '=', 'vehicle_types.id')
             ->select(
                 'vehicle_types.name as vehicle_type',
-                DB::raw('SUM(total_cost) as total_cost'),
+                DB::raw('SUM(maintenance_operations.total_cost) as total_cost'),
                 DB::raw('COUNT(*) as operations_count')
             )
             ->groupBy('vehicle_types.id', 'vehicle_types.name')
             ->get();
     }
-
     private function getUpcomingMaintenance()
     {
         // Logique simplifiée pour les maintenances à venir
@@ -103,7 +102,7 @@ class DashboardController extends Controller
                 if (!$lastMaintenance) return true;
 
                 $daysSinceLastMaintenance = $lastMaintenance->operation_date->diffInDays(now());
-                return $daysSinceLastMaintenance >= 75; 
+                return $daysSinceLastMaintenance >= 75;
             })
             ->take(10)
             ->values();
